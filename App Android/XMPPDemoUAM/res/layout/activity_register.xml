@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#ffffff">
+     
+     <Button android:id="@+id/btnGCMRegister" 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Registrarse en Google GCM CCS Server"
+         android:layout_margin="10dip"/>
+    
+    
+     <Button android:id="@+id/btnXmppRegiser" 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Registrarse en XMPP Server"
+         android:layout_margin="10dip"/>
+
+     <Button
+         android:id="@+id/btnSendMessage"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dip"
+         android:text="Enviar mensaje a XMPP Server" />
+     
+     <TextView
+        android:id="@+id/registerid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSendMessage"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="true"
+        android:layout_marginTop="36dp" />
+
+</LinearLayout>
